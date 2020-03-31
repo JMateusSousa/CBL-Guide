@@ -8,22 +8,23 @@
 
 import Foundation
 import AppKit
+import Cocoa
 
 class Recognizer: NSObject, NSSpeechRecognizerDelegate {
     let rec = NSSpeechRecognizer()
-    init (commands: [String]) {
-        rec?.commands = commands
+    override init () {
+        rec!.commands = ["Zero", "One", "Two", "three"]
     }
     func speechRecognizer(_ sender: NSSpeechRecognizer, didRecognizeCommand command: String) {
         print("command: \(command)")
     }
     
     func start(){
-        rec?.startListening()
-        rec?.delegate = self
+        rec!.delegate = self
+        rec!.startListening()
     }
     
     func stop(){
-        rec?.stopListening()
+        rec!.stopListening()
     }
 }
