@@ -1,0 +1,12 @@
+
+{----------------------------------------------------}
+
+Você está na sessão de informação do Investigate!
+Escolha um assunto de seu interesse
+1. Guiding Questions 
+2. Guiding Activities and Resources
+3. Analysis
+
+0. Voltar
+
+

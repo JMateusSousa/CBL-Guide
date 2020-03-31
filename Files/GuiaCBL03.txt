@@ -1,0 +1,11 @@
+
+{----------------------------------------------------}
+
+Você está na sessão de informação do Act!
+Escolha um assunto de seu interesse
+1. Solution Development
+2. Implementation and Evaluation
+3. Document, Reflect and Share 
+
+0. Voltar
+

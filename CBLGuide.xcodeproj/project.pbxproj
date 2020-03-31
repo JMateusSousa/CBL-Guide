@@ -7,24 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7C37090D243300790051239D /* Recognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C37090C243300790051239D /* Recognizer.swift */; };
 		7C9B53CD242FE3F4006C0B03 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9B53CC242FE3F4006C0B03 /* main.swift */; };
+		7C9B53EE242FE7B6006C0B03 /* GuiaCBL00.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7C9B53EC242FE70B006C0B03 /* GuiaCBL00.txt */; };
+		7C9B53EF242FEB30006C0B03 /* GuiaCBL01.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7C9B53EB242FE70B006C0B03 /* GuiaCBL01.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		7C9B53C7242FE3F4006C0B03 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
-			dstSubfolderSpec = 0;
+			buildActionMask = 8;
+			dstPath = usr/share/man/man1;
+			dstSubfolderSpec = 7;
 			files = (
+				7C9B53EE242FE7B6006C0B03 /* GuiaCBL00.txt in CopyFiles */,
+				7C9B53EF242FEB30006C0B03 /* GuiaCBL01.txt in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		7C37090C243300790051239D /* Recognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recognizer.swift; sourceTree = "<group>"; };
 		7C9B53C9242FE3F4006C0B03 /* CBLGuide */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CBLGuide; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C9B53CC242FE3F4006C0B03 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		7C9B53E8242FE70B006C0B03 /* GuiaCBL11.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = GuiaCBL11.txt; sourceTree = "<group>"; };
+		7C9B53E9242FE70B006C0B03 /* GuiaCBL02.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = GuiaCBL02.txt; sourceTree = "<group>"; };
+		7C9B53EA242FE70B006C0B03 /* GuiaCBL03.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = GuiaCBL03.txt; sourceTree = "<group>"; };
+		7C9B53EB242FE70B006C0B03 /* GuiaCBL01.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = GuiaCBL01.txt; sourceTree = "<group>"; };
+		7C9B53EC242FE70B006C0B03 /* GuiaCBL00.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = GuiaCBL00.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +52,7 @@
 		7C9B53C0242FE3F4006C0B03 = {
 			isa = PBXGroup;
 			children = (
+				7C9B53E7242FE70B006C0B03 /* Files */,
 				7C9B53CB242FE3F4006C0B03 /* CBLGuide */,
 				7C9B53CA242FE3F4006C0B03 /* Products */,
 			);
@@ -58,8 +70,21 @@
 			isa = PBXGroup;
 			children = (
 				7C9B53CC242FE3F4006C0B03 /* main.swift */,
+				7C37090C243300790051239D /* Recognizer.swift */,
 			);
 			path = CBLGuide;
+			sourceTree = "<group>";
+		};
+		7C9B53E7242FE70B006C0B03 /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				7C9B53E8242FE70B006C0B03 /* GuiaCBL11.txt */,
+				7C9B53E9242FE70B006C0B03 /* GuiaCBL02.txt */,
+				7C9B53EA242FE70B006C0B03 /* GuiaCBL03.txt */,
+				7C9B53EB242FE70B006C0B03 /* GuiaCBL01.txt */,
+				7C9B53EC242FE70B006C0B03 /* GuiaCBL00.txt */,
+			);
+			path = Files;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,6 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C37090D243300790051239D /* Recognizer.swift in Sources */,
 				7C9B53CD242FE3F4006C0B03 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
