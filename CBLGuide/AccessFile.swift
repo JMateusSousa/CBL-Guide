@@ -8,17 +8,29 @@
 
 import Foundation
 
-class AcessFile {
+class AccessFile {
     
     let speaker = Speaker()
     let url = URL(string: "file:///Users/Joseph/Documents/Mateus/Academy/CBLGuide/Files")
-
+    var isAccessible = true
+    
+    func setIsAccessible(isAccessible: Bool) {
+        self.isAccessible = isAccessible
+    }
+    
     func access(filename: String){
         let arquivoURL = url?.appendingPathComponent(filename)
         do {
             let fileContent = try String(contentsOf: arquivoURL!, encoding: .utf8)
-            print(fileContent)
-            speaker.speech(fileContent)
+            if isAccessible {
+                 print(fileContent)
+                speaker.speech(fileContent)
+                print("Selected: ", separator: "", terminator: "")
+            }
+            else {
+                print(fileContent)
+                print("Selected: ", separator: "", terminator: "")
+            }
         }
         catch{
             print("Failed to read text from \(filename)")

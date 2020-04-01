@@ -1,11 +1,11 @@
 
 {----------------------------------------------------}
+You are in Engage information section!
+Choose your desired issue:
 
-Você está na sessão de informação do Engage!
-Escolha um assunto de seu interesse
 1. Big Idea
 2. Essential Questions
 3. Challenge 
 
-0. Voltar
+0. Back
 

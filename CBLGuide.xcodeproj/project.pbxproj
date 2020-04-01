@@ -11,7 +11,7 @@
 		7C9B53CD242FE3F4006C0B03 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9B53CC242FE3F4006C0B03 /* main.swift */; };
 		7C9B53EE242FE7B6006C0B03 /* GuiaCBL00.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7C9B53EC242FE70B006C0B03 /* GuiaCBL00.txt */; };
 		7C9B53EF242FEB30006C0B03 /* GuiaCBL01.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7C9B53EB242FE70B006C0B03 /* GuiaCBL01.txt */; };
-		7C9D315C2433E1D1003AD0B4 /* AcessFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9D315B2433E1D1003AD0B4 /* AcessFile.swift */; };
+		7C9D315C2433E1D1003AD0B4 /* AccessFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9D315B2433E1D1003AD0B4 /* AccessFile.swift */; };
 		7C9D315E2433E4BF003AD0B4 /* Speaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9D315D2433E4BF003AD0B4 /* Speaker.swift */; };
 /* End PBXBuildFile section */
 
@@ -38,8 +38,17 @@
 		7C9B53EA242FE70B006C0B03 /* GuiaCBL03.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = GuiaCBL03.txt; sourceTree = "<group>"; };
 		7C9B53EB242FE70B006C0B03 /* GuiaCBL01.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = GuiaCBL01.txt; sourceTree = "<group>"; };
 		7C9B53EC242FE70B006C0B03 /* GuiaCBL00.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = GuiaCBL00.txt; sourceTree = "<group>"; };
-		7C9D315B2433E1D1003AD0B4 /* AcessFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcessFile.swift; sourceTree = "<group>"; };
+		7C9D315B2433E1D1003AD0B4 /* AccessFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessFile.swift; sourceTree = "<group>"; };
 		7C9D315D2433E4BF003AD0B4 /* Speaker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Speaker.swift; sourceTree = "<group>"; };
+		7C9D315F243405E7003AD0B4 /* GuiaCBL12.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = GuiaCBL12.txt; sourceTree = "<group>"; };
+		7C9D31602434065C003AD0B4 /* GuiaCBL13.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = GuiaCBL13.txt; sourceTree = "<group>"; };
+		7C9D316124340725003AD0B4 /* GuiaCBL21.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = GuiaCBL21.txt; sourceTree = "<group>"; };
+		7C9D316224340778003AD0B4 /* GuiaCBL22.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = GuiaCBL22.txt; sourceTree = "<group>"; };
+		7C9D3163243407AF003AD0B4 /* GuiaCBL23.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = GuiaCBL23.txt; sourceTree = "<group>"; };
+		7C9D31642434080E003AD0B4 /* GuiaCBL31.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = GuiaCBL31.txt; sourceTree = "<group>"; };
+		7C9D31652434085A003AD0B4 /* GuiaCBL32.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = GuiaCBL32.txt; sourceTree = "<group>"; };
+		7C9D316624340904003AD0B4 /* GuiaCBL33.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = GuiaCBL33.txt; sourceTree = "<group>"; };
+		7C9D316724344AB8003AD0B4 /* Accessibility.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Accessibility.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,7 +84,7 @@
 			children = (
 				7C9B53CC242FE3F4006C0B03 /* main.swift */,
 				7C37090C243300790051239D /* Recognizer.swift */,
-				7C9D315B2433E1D1003AD0B4 /* AcessFile.swift */,
+				7C9D315B2433E1D1003AD0B4 /* AccessFile.swift */,
 				7C9D315D2433E4BF003AD0B4 /* Speaker.swift */,
 			);
 			path = CBLGuide;
@@ -85,10 +94,19 @@
 			isa = PBXGroup;
 			children = (
 				7C9B53E8242FE70B006C0B03 /* GuiaCBL11.txt */,
+				7C9D315F243405E7003AD0B4 /* GuiaCBL12.txt */,
+				7C9D31602434065C003AD0B4 /* GuiaCBL13.txt */,
 				7C9B53E9242FE70B006C0B03 /* GuiaCBL02.txt */,
 				7C9B53EA242FE70B006C0B03 /* GuiaCBL03.txt */,
 				7C9B53EB242FE70B006C0B03 /* GuiaCBL01.txt */,
 				7C9B53EC242FE70B006C0B03 /* GuiaCBL00.txt */,
+				7C9D316124340725003AD0B4 /* GuiaCBL21.txt */,
+				7C9D316224340778003AD0B4 /* GuiaCBL22.txt */,
+				7C9D3163243407AF003AD0B4 /* GuiaCBL23.txt */,
+				7C9D31642434080E003AD0B4 /* GuiaCBL31.txt */,
+				7C9D31652434085A003AD0B4 /* GuiaCBL32.txt */,
+				7C9D316624340904003AD0B4 /* GuiaCBL33.txt */,
+				7C9D316724344AB8003AD0B4 /* Accessibility.txt */,
 			);
 			path = Files;
 			sourceTree = "<group>";
@@ -153,7 +171,7 @@
 			files = (
 				7C37090D243300790051239D /* Recognizer.swift in Sources */,
 				7C9B53CD242FE3F4006C0B03 /* main.swift in Sources */,
-				7C9D315C2433E1D1003AD0B4 /* AcessFile.swift in Sources */,
+				7C9D315C2433E1D1003AD0B4 /* AccessFile.swift in Sources */,
 				7C9D315E2433E4BF003AD0B4 /* Speaker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
