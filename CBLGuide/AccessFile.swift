@@ -45,7 +45,7 @@ class AccessFile {
     
     //  Acessa arquivo a partir no diretório do projeto
     //
-    //func acess(filePath: String){
+    //func access(filePath: String){
     //  if let path = Bundle.main.path(forResource: filePath, ofType: nil) {
     //    do {
     //        let text = try String(contentsOfFile: path, encoding: String.Encoding.utf8)

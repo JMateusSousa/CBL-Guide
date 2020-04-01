@@ -9,7 +9,9 @@
 import Foundation
 
 class Application {
+    
     var fileReader = AccessFile()
+    
     private func requestAccesibility() {
         fileReader.access(filename: "Accessibility.txt")
         let input = readLine()!
