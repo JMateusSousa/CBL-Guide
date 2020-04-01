@@ -1,7 +1,19 @@
+---------------------------------------------------------------------------------------------------------------------
 Solution Development.
-Having completed the Investigation phase, the Learners have a firm foundation to begin developing Solution concepts. Although the exploration of the Challenge will lend itself to multiple Solutions, each group or individual needs to identify a single Solution to design and implement.
-Solution concepts may involve a campaign to inform or educate, school or community improvement projects, product development, or other activities. Encourage the students to be creative in designing the Solutions while ensuring that they remain true to their research findings and actionable within the parameters provided.
-Some participants may have been waiting to reveal a Solution since the beginning of the Challenge, and they may try to revert to the pre-conceived Solution. To avoid this, make sure the Solutions they identify can be defended based on their research.
-After the Solution concept is approved, the Learners develop prototypes, experiment, and test. This iterative design cycle will most likely raise new Guiding Questions requiring further research and swing them back into the Investigation Phase. The refinement process will produce a Solution that is ready to be implemented.
+
+Having completed the Investigation phase, the Learners have a firm foundation to begin developing Solution concepts.
+Although the exploration of the Challenge will lend itself to multiple Solutions, each group or individual needs to
+identify a single Solution to design and implement.
+
+Solution concepts may involve a campaign to inform or educate, school or community improvement projects, product development,
+or other activities. Encourage the students to be creative in designing the Solutions while ensuring that they remain true
+to their research findings and actionable within the parameters provided.
+
+Some participants may have been waiting to reveal a Solution since the beginning of the Challenge, and they may try to revert
+to the pre-conceived Solution. To avoid this, make sure the Solutions they identify can be defended based on their research.
+
+After the Solution concept is approved, the Learners develop prototypes, experiment, and test. This iterative design cycle
+will most likely raise new Guiding Questions requiring further research and swing them back into the Investigation Phase.
+The refinement process will produce a Solution that is ready to be implemented.
 
 0. Back

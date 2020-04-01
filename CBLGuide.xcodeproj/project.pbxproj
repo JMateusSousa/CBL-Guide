@@ -13,6 +13,7 @@
 		7C9B53EF242FEB30006C0B03 /* GuiaCBL01.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7C9B53EB242FE70B006C0B03 /* GuiaCBL01.txt */; };
 		7C9D315C2433E1D1003AD0B4 /* AccessFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9D315B2433E1D1003AD0B4 /* AccessFile.swift */; };
 		7C9D315E2433E4BF003AD0B4 /* Speaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9D315D2433E4BF003AD0B4 /* Speaker.swift */; };
+		7CDE033824350EFA00BE3C0A /* Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDE033724350EFA00BE3C0A /* Application.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -49,6 +50,7 @@
 		7C9D31652434085A003AD0B4 /* GuiaCBL32.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = GuiaCBL32.txt; sourceTree = "<group>"; };
 		7C9D316624340904003AD0B4 /* GuiaCBL33.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = GuiaCBL33.txt; sourceTree = "<group>"; };
 		7C9D316724344AB8003AD0B4 /* Accessibility.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Accessibility.txt; sourceTree = "<group>"; };
+		7CDE033724350EFA00BE3C0A /* Application.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Application.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				7C37090C243300790051239D /* Recognizer.swift */,
 				7C9D315B2433E1D1003AD0B4 /* AccessFile.swift */,
 				7C9D315D2433E4BF003AD0B4 /* Speaker.swift */,
+				7CDE033724350EFA00BE3C0A /* Application.swift */,
 			);
 			path = CBLGuide;
 			sourceTree = "<group>";
@@ -169,6 +172,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CDE033824350EFA00BE3C0A /* Application.swift in Sources */,
 				7C37090D243300790051239D /* Recognizer.swift in Sources */,
 				7C9B53CD242FE3F4006C0B03 /* main.swift in Sources */,
 				7C9D315C2433E1D1003AD0B4 /* AccessFile.swift in Sources */,

@@ -1,8 +1,33 @@
+---------------------------------------------------------------------------------------------------------------------
 Guiding Questions.
-The Investigation phase begins with generating questions related to the Challenge. The questions include everything that needs to be learned to develop an informed Solution to the Challenge. For example, if the Challenge is “Be healthy”, Guiding Questions might include: What does it mean to be healthy? What is the biology of health? What factors influence health? What are the major health issues in the world, my community, and my family? What is the role of nutrition? What is the role of exercise? What is the role of genetics? At this stage the more questions, the better. To increase participation, have each student in the group generate as many questions as possible and share with the group. Starting with group brainstorming can stifle the involvement of some individuals.
-To further increase the quantity and diversity of questions, include other groups of students, family members, community members, and experts. Online surveys and social media are useful tools for gathering questions. Teachers can use this opportunity to sow the mix with standards and content specific questions, setting the stage for future efforts to align the experience to curriculum standards and requirements. Make sure to develop an extensive list of Guiding Questions, as this will guide the learning and ultimately the validity of the Solutions. The initial questions should be recorded and saved.
-Once the Learners have a sizable and diverse set of initial questions, the next step is to consolidate similar questions and develop categories of questions. Creating categories is a critical step, as decisions made about categories will shape the learning journey moving forward.
-As the Learners review the questions, they consolidate ones that have similar language and thoughts. For example in the Health Challenge example, the questions “What is the biology behind good health” and “What is the chemistry of good health” are merged into “what is the science of good health”. While combining like questions, the Learners begin identifying patterns in the questions and create categories. In the Health Challenge, the categories might be science, exercise, education, diet, etc..
+
+The Investigation phase begins with generating questions related to the Challenge. The questions include
+everything that needs to be learned to develop an informed Solution to the Challenge.
+
+For example, if the Challenge is “Be healthy”, Guiding Questions might include: What does it mean to be healthy?
+What is the biology of health? What factors influence health? What are the major health issues in the world,
+my community, and my family? What is the role of nutrition? What is the role of exercise? What is the role of genetics?
+At this stage the more questions, the better. To increase participation, have each student in the group generate
+as many questions as possible and share with the group. Starting with group brainstorming can stifle the involvement
+of some individuals.
+
+To further increase the quantity and diversity of questions, include other groups of students, family members,
+community members, and experts. Online surveys and social media are useful tools for gathering questions. Teachers can
+use this opportunity to sow the mix with standards and content specific questions, setting the stage for future
+efforts to align the experience to curriculum standards and requirements. Make sure to develop an extensive list
+of Guiding Questions, as this will guide the learning and ultimately the validity of the Solutions. The initial
+questions should be recorded and saved.
+
+Once the Learners have a sizable and diverse set of initial questions, the next step is to consolidate similar questions
+and develop categories of questions. Creating categories is a critical step, as decisions made about categories will
+shape the learning journey moving forward.
+
+As the Learners review the questions, they consolidate ones that have similar language and thoughts. For example
+in the Health Challenge example, the questions “What is the biology behind good health” and “What is the chemistry
+of good health” are merged into “what is the science of good health”. While combining like questions, the Learners
+begin identifying patterns in the questions and create categories. In the Health Challenge, the categories might
+be science, exercise, education, diet, etc..
+
 As categories solidify, the questions can be sorted and prioritized (“must know” questions at the top, “good to know” at the bottom). The result is a set of categories that contain prioritized sets of questions.
 
 0. Back

@@ -9,11 +9,13 @@
 import Foundation
 import AppKit
 
+
+//  Classe responsável por criar o Speaker
 class Speaker {
-    
     let loop = RunLoop.current
     let synth = NSSpeechSynthesizer()
-
+    
+    //  Método speech recebe um conteúdo e o speaker lê
     func speech(_ text: String) {
         synth.startSpeaking(text)
         let mode = loop.currentMode ?? RunLoop.Mode.default

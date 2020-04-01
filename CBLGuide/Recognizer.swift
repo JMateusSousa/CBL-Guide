@@ -8,23 +8,27 @@
 
 import Foundation
 import AppKit
-import Cocoa
 
+//  Classe implementada para, quando o modo de operação for acessível,
+//  o usuário poder realizar os comandos por voz.
 class Recognizer: NSObject, NSSpeechRecognizerDelegate {
     let rec = NSSpeechRecognizer()
     override init () {
+        
+        //   Comandos existentes no programa.
         rec!.commands = ["Zero", "One", "Two", "three"]
     }
+    
     func speechRecognizer(_ sender: NSSpeechRecognizer, didRecognizeCommand command: String) {
         print("command: \(command)")
     }
     
-    func start(){
+    func start() {
         rec!.delegate = self
         rec!.startListening()
     }
     
-    func stop(){
+    func stop() {
         rec!.stopListening()
     }
 }

@@ -1,7 +1,27 @@
+---------------------------------------------------------------------------------------------------------------------
 Implementation and Evaluation.
-After developing their Solutions, the Learners implement them, measure outcomes, reflect on what worked and what didn’t and determine their impact on the Challenge. Each group develops and presents a detailed implementation plan that includes the audience, dates, activities, costs, anticipated difficulties, and the responsibilities of each team member. The Learners develop research plans to measure the impact of the Solution.
-In the research plan, the Learners decide what, and when they measure throughout the implementation phase. Creating this plan at the beginning will help the team members collect consistent data to compare throughout the process. If the Learners plan to use surveys or questionnaires for pre- and post-evaluation, the Learners, will need to prepare the questions and determine the delivery method. If the research methods include interviews, they will need to develop protocols, write questions and set up the logistics. The teams can create a notebook or set up online workspaces to record measurements and/or observations.
-When Learners have implemented their Solution and collected the data, they begin the analysis process. Did anything change? Did it change the way they had thought it would? In addition to comparing the pre and post data points, the students will identify trends. When did the most significant changes occur? How did the audience react to the solution? Using this information, they will analyze whether the Solution had the desired effect.
-Learners can continue to refine the Solution or develop a completion report and share their work with the rest of the world. How much time the Learners can spend improving the Solution will be determined by the overall boundaries of the Challenge. Both short and extended timelines for Solution development, implementation and evaluation can produce similar experiences for the Learners.
+
+After developing their Solutions, the Learners implement them, measure outcomes, reflect on what worked and what didn’t
+and determine their impact on the Challenge. Each group develops and presents a detailed implementation plan that includes
+the audience, dates, activities, costs, anticipated difficulties, and the responsibilities of each team member.
+The Learners develop research plans to measure the impact of the Solution.
+
+In the research plan, the Learners decide what, and when they measure throughout the implementation phase. Creating this
+plan at the beginning will help the team members collect consistent data to compare throughout the process.
+If the Learners plan to use surveys or questionnaires for pre- and post-evaluation, the Learners, will need to prepare
+the questions and determine the delivery method.
+
+If the research methods include interviews, they will need to develop protocols, write questions and set up the logistics.
+The teams can create a notebook or set up online workspaces torecord measurements and/or observations.
+
+When Learners have implemented their Solution and collected the data, they begin the analysis process. Did anything change?
+Did it change the way they had thought it would? In addition to comparing the pre and post data points, the students
+will identify trends. When did the most significant changes occur? How did the audience react to the solution?
+Using this information, they will analyze whether the Solution had the desired effect.
+
+Learners can continue to refine the Solution or develop a completion report and share their work with the rest of the world.
+How much time the Learners can spend improving the Solution will be determined by the overall boundaries of the Challenge.
+Both short and extended timelines for Solution development, implementation and evaluation can produce similar experiences
+for the Learners.
 
 0. Back
