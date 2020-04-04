@@ -31,3 +31,4 @@ be science, exercise, education, diet, etc..
 As categories solidify, the questions can be sorted and prioritized (“must know” questions at the top, “good to know” at the bottom). The result is a set of categories that contain prioritized sets of questions.
 
 0. Back
+1. Quit

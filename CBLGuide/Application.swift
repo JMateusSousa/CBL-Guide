@@ -11,11 +11,13 @@ import Foundation
 class Application {
     
     var fileReader = AccessFile()
+    let speaker = Speaker()
     
     private func requestAccesibility() {
         fileReader.access(filename: "Accessibility.txt")
         var input: String
         repeat {
+            print("Selected: ", separator: "", terminator: "")
             input = readLine()!
             switch input {
             case "1":
@@ -23,23 +25,25 @@ class Application {
             case "2":
                self.fileReader.setIsAccessible(isAccessible: false)
             default:
+                print("Your input was invalid!. Please, try again.")
+                speaker.speech("Your input was invalid!. Please, try again.")
                 input = "0"
-                print("inválid")
             }
         } while input == "0"
     }
+    
     func accessMenu() {
         requestAccesibility()
         var userInput: Int
         var topic = 0, screen = 0
         let verifyArray = [0, 1, 2, 3]  //  array para tratar erro de input
         while (screen >= 0 || topic != 0) {
-            fileReader.access(filename: "GuiaCBL" + String(screen) + String(topic) + ".txt")
+            fileReader.access(filename: "GuiaCBL\(screen)\(topic).txt")
+            print("Selected: ", separator: "", terminator: "")
             let input = readLine()!
-            let flag: Int! = Int(input)
 
             //  verifica se o usuário não digitou caracteres
-            if flag == nil {
+            if Int(input) == nil {
                 print("Entrada inválida")
                 continue
             }
@@ -75,9 +79,16 @@ class Application {
                     if topic == 0 {
                         topic = userInput
                     }
+                        
+                    //  quando o usuário chegar na informação e quiser sair
+                    else if screen > 0 {
+                        if userInput == 1{
+                            (screen, topic) = (-1, 0)
+                        }
+                    }
+                    //  o pulo do gato para entrar na informação requerida
                     else if topic != 0 {
-                        screen = topic
-                        topic = userInput
+                        (screen, topic) = (topic, userInput)
                     }
                 }
         }

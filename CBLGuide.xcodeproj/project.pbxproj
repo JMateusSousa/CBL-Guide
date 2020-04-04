@@ -8,9 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		7C37090D243300790051239D /* Recognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C37090C243300790051239D /* Recognizer.swift */; };
+		7C97C73C24391064008CB2D7 /* ResourcesBundle.bundle in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7C97C7362439100B008CB2D7 /* ResourcesBundle.bundle */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7C97C74C2439138A008CB2D7 /* GuiaCBL11.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7C9B53E8242FE70B006C0B03 /* GuiaCBL11.txt */; };
+		7C97C74D2439138A008CB2D7 /* GuiaCBL12.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7C9D315F243405E7003AD0B4 /* GuiaCBL12.txt */; };
+		7C97C74E2439138A008CB2D7 /* GuiaCBL13.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7C9D31602434065C003AD0B4 /* GuiaCBL13.txt */; };
+		7C97C74F2439138A008CB2D7 /* GuiaCBL02.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7C9B53E9242FE70B006C0B03 /* GuiaCBL02.txt */; };
+		7C97C7502439138A008CB2D7 /* GuiaCBL03.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7C9B53EA242FE70B006C0B03 /* GuiaCBL03.txt */; };
+		7C97C7512439138A008CB2D7 /* GuiaCBL01.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7C9B53EB242FE70B006C0B03 /* GuiaCBL01.txt */; };
+		7C97C7522439138A008CB2D7 /* GuiaCBL21.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7C9D316124340725003AD0B4 /* GuiaCBL21.txt */; };
+		7C97C7532439138A008CB2D7 /* GuiaCBL22.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7C9D316224340778003AD0B4 /* GuiaCBL22.txt */; };
+		7C97C7542439138A008CB2D7 /* GuiaCBL23.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7C9D3163243407AF003AD0B4 /* GuiaCBL23.txt */; };
+		7C97C7552439138A008CB2D7 /* GuiaCBL31.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7C9D31642434080E003AD0B4 /* GuiaCBL31.txt */; };
+		7C97C7562439138A008CB2D7 /* GuiaCBL32.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7C9D31652434085A003AD0B4 /* GuiaCBL32.txt */; };
+		7C97C7572439138A008CB2D7 /* GuiaCBL33.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7C9D316624340904003AD0B4 /* GuiaCBL33.txt */; };
+		7C97C7582439138A008CB2D7 /* Accessibility.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7C9D316724344AB8003AD0B4 /* Accessibility.txt */; };
+		7C97C75924391436008CB2D7 /* GuiaCBL00.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7C9B53EC242FE70B006C0B03 /* GuiaCBL00.txt */; };
 		7C9B53CD242FE3F4006C0B03 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9B53CC242FE3F4006C0B03 /* main.swift */; };
-		7C9B53EE242FE7B6006C0B03 /* GuiaCBL00.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7C9B53EC242FE70B006C0B03 /* GuiaCBL00.txt */; };
-		7C9B53EF242FEB30006C0B03 /* GuiaCBL01.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7C9B53EB242FE70B006C0B03 /* GuiaCBL01.txt */; };
 		7C9D315C2433E1D1003AD0B4 /* AccessFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9D315B2433E1D1003AD0B4 /* AccessFile.swift */; };
 		7C9D315E2433E4BF003AD0B4 /* Speaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9D315D2433E4BF003AD0B4 /* Speaker.swift */; };
 		7CDE033824350EFA00BE3C0A /* Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDE033724350EFA00BE3C0A /* Application.swift */; };
@@ -23,8 +36,7 @@
 			dstPath = usr/share/man/man1;
 			dstSubfolderSpec = 7;
 			files = (
-				7C9B53EE242FE7B6006C0B03 /* GuiaCBL00.txt in CopyFiles */,
-				7C9B53EF242FEB30006C0B03 /* GuiaCBL01.txt in CopyFiles */,
+				7C97C73C24391064008CB2D7 /* ResourcesBundle.bundle in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
@@ -32,6 +44,8 @@
 
 /* Begin PBXFileReference section */
 		7C37090C243300790051239D /* Recognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recognizer.swift; sourceTree = "<group>"; };
+		7C97C7362439100B008CB2D7 /* ResourcesBundle.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ResourcesBundle.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C97C7382439100B008CB2D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7C9B53C9242FE3F4006C0B03 /* CBLGuide */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CBLGuide; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C9B53CC242FE3F4006C0B03 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		7C9B53E8242FE70B006C0B03 /* GuiaCBL11.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = GuiaCBL11.txt; sourceTree = "<group>"; };
@@ -54,6 +68,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		7C97C7332439100B008CB2D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7C9B53C6242FE3F4006C0B03 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -64,11 +85,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		7C9B53C0242FE3F4006C0B03 = {
+		7C97C7372439100B008CB2D7 /* ResourcesBundle */ = {
 			isa = PBXGroup;
 			children = (
 				7C9B53E7242FE70B006C0B03 /* Files */,
+				7C97C7382439100B008CB2D7 /* Info.plist */,
+			);
+			path = ResourcesBundle;
+			sourceTree = "<group>";
+		};
+		7C9B53C0242FE3F4006C0B03 = {
+			isa = PBXGroup;
+			children = (
 				7C9B53CB242FE3F4006C0B03 /* CBLGuide */,
+				7C97C7372439100B008CB2D7 /* ResourcesBundle */,
 				7C9B53CA242FE3F4006C0B03 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -77,6 +107,7 @@
 			isa = PBXGroup;
 			children = (
 				7C9B53C9242FE3F4006C0B03 /* CBLGuide */,
+				7C97C7362439100B008CB2D7 /* ResourcesBundle.bundle */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,10 +130,10 @@
 				7C9B53E8242FE70B006C0B03 /* GuiaCBL11.txt */,
 				7C9D315F243405E7003AD0B4 /* GuiaCBL12.txt */,
 				7C9D31602434065C003AD0B4 /* GuiaCBL13.txt */,
+				7C9B53EC242FE70B006C0B03 /* GuiaCBL00.txt */,
 				7C9B53E9242FE70B006C0B03 /* GuiaCBL02.txt */,
 				7C9B53EA242FE70B006C0B03 /* GuiaCBL03.txt */,
 				7C9B53EB242FE70B006C0B03 /* GuiaCBL01.txt */,
-				7C9B53EC242FE70B006C0B03 /* GuiaCBL00.txt */,
 				7C9D316124340725003AD0B4 /* GuiaCBL21.txt */,
 				7C9D316224340778003AD0B4 /* GuiaCBL22.txt */,
 				7C9D3163243407AF003AD0B4 /* GuiaCBL23.txt */,
@@ -117,6 +148,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		7C97C7352439100B008CB2D7 /* ResourcesBundle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7C97C73B2439100B008CB2D7 /* Build configuration list for PBXNativeTarget "ResourcesBundle" */;
+			buildPhases = (
+				7C97C7322439100B008CB2D7 /* Sources */,
+				7C97C7332439100B008CB2D7 /* Frameworks */,
+				7C97C7342439100B008CB2D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ResourcesBundle;
+			productName = ResourcesBundle;
+			productReference = 7C97C7362439100B008CB2D7 /* ResourcesBundle.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
 		7C9B53C8242FE3F4006C0B03 /* CBLGuide */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7C9B53D0242FE3F4006C0B03 /* Build configuration list for PBXNativeTarget "CBLGuide" */;
@@ -144,6 +192,9 @@
 				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = "Joseph Mateus";
 				TargetAttributes = {
+					7C97C7352439100B008CB2D7 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
 					7C9B53C8242FE3F4006C0B03 = {
 						CreatedOnToolsVersion = 11.3.1;
 					};
@@ -163,11 +214,43 @@
 			projectRoot = "";
 			targets = (
 				7C9B53C8242FE3F4006C0B03 /* CBLGuide */,
+				7C97C7352439100B008CB2D7 /* ResourcesBundle */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		7C97C7342439100B008CB2D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C97C7572439138A008CB2D7 /* GuiaCBL33.txt in Resources */,
+				7C97C74F2439138A008CB2D7 /* GuiaCBL02.txt in Resources */,
+				7C97C7522439138A008CB2D7 /* GuiaCBL21.txt in Resources */,
+				7C97C7552439138A008CB2D7 /* GuiaCBL31.txt in Resources */,
+				7C97C74E2439138A008CB2D7 /* GuiaCBL13.txt in Resources */,
+				7C97C74C2439138A008CB2D7 /* GuiaCBL11.txt in Resources */,
+				7C97C75924391436008CB2D7 /* GuiaCBL00.txt in Resources */,
+				7C97C7512439138A008CB2D7 /* GuiaCBL01.txt in Resources */,
+				7C97C7502439138A008CB2D7 /* GuiaCBL03.txt in Resources */,
+				7C97C7542439138A008CB2D7 /* GuiaCBL23.txt in Resources */,
+				7C97C7532439138A008CB2D7 /* GuiaCBL22.txt in Resources */,
+				7C97C7582439138A008CB2D7 /* Accessibility.txt in Resources */,
+				7C97C74D2439138A008CB2D7 /* GuiaCBL12.txt in Resources */,
+				7C97C7562439138A008CB2D7 /* GuiaCBL32.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		7C97C7322439100B008CB2D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7C9B53C5242FE3F4006C0B03 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -183,6 +266,34 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		7C97C7392439100B008CB2D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ResourcesBundle/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_BUNDLE_IDENTIFIER = Joseph.ResourcesBundle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		7C97C73A2439100B008CB2D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ResourcesBundle/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_BUNDLE_IDENTIFIER = Joseph.ResourcesBundle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
 		7C9B53CE242FE3F4006C0B03 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -317,6 +428,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		7C97C73B2439100B008CB2D7 /* Build configuration list for PBXNativeTarget "ResourcesBundle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C97C7392439100B008CB2D7 /* Debug */,
+				7C97C73A2439100B008CB2D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		7C9B53C4242FE3F4006C0B03 /* Build configuration list for PBXProject "CBLGuide" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
