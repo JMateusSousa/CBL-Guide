@@ -14,15 +14,20 @@ class Application {
     
     private func requestAccesibility() {
         fileReader.access(filename: "Accessibility.txt")
-        let input = readLine()!
-        if input == "1" {
-            self.fileReader.setIsAccessible(isAccessible: true)
-        }
-        else {
-            self.fileReader.setIsAccessible(isAccessible: false)
-        }
+        var input: String
+        repeat {
+            input = readLine()!
+            switch input {
+            case "1":
+                self.fileReader.setIsAccessible(isAccessible: true)
+            case "2":
+               self.fileReader.setIsAccessible(isAccessible: false)
+            default:
+                input = "0"
+                print("inválid")
+            }
+        } while input == "0"
     }
-    
     func accessMenu() {
         requestAccesibility()
         var userInput: Int
