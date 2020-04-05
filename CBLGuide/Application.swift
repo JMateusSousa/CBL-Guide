@@ -12,16 +12,21 @@ class Application {
     
     var fileReader = AccessFile()
     let speaker = Speaker()
+    let recognizer = Recognizer()
     
     private func requestAccesibility() {
         fileReader.access(filename: "Accessibility.txt")
         var input: String
         repeat {
-            print("Selected: ", separator: "", terminator: "")
+            
+            //  ter as duas opções de entrada de usuário.
+            //  acho que devem existir duas threads.
+            print("Selected: ", terminator: "")
             input = readLine()!
             switch input {
             case "1":
                 self.fileReader.setIsAccessible(isAccessible: true)
+                self.recognizer.start()
             case "2":
                self.fileReader.setIsAccessible(isAccessible: false)
             default:
@@ -33,15 +38,28 @@ class Application {
     }
     
     func accessMenu() {
+        
         requestAccesibility()
         var userInput: Int
         var topic = 0, screen = 0
+        var input: String = ""
         let verifyArray = [0, 1, 2, 3]  //  array para tratar erro de input
+        
         while (screen >= 0 || topic != 0) {
             fileReader.access(filename: "GuiaCBL\(screen)\(topic).txt")
-            print("Selected: ", separator: "", terminator: "")
-            let input = readLine()!
-
+            print("Selected: ", terminator: "")
+            
+            
+            //  forma alternativa a threads, pois existem falhas.
+            if self.fileReader.isAccessible {
+                input = self.recognizer.getCommand()
+                self.recognizer.command = ""
+                print(input)
+            }
+            else {
+                input = readLine()!
+            }
+            
             //  verifica se o usuário não digitou caracteres
             if Int(input) == nil {
                 print("Entrada inválida")
@@ -93,9 +111,9 @@ class Application {
                 }
         }
         else {
-          print("Entrada inválida")
+          print("Your input was invalid!. Please, try again.")
         }
       }
-      print("Saindo...")
+      print("Exiting...")
     }
 }
